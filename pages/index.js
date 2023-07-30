@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  console.log("error")
   return (
-    {console.log("error)}
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
